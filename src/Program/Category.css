@@ -1,0 +1,35 @@
+/* src/components/Category.css */
+.category {
+    margin: 20px;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust as needed for your layout */
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: #e91e63;
+  }

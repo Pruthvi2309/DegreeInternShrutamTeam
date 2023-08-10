@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #007dfe;
+}
+
+.signingbtn {
+    max-width: 300px;
+    display: block;
+    padding: 10px 60px;
+    margin: 30px auto 20px;
+    background-color: #007dfe;
+    border: none;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.signingbtn:hover {
+    background-color: #A084E8;
+}
+
+.main {
+    padding: 75px;
+}
+
+.main .signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #007dfe;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main .signin .LeftSide {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.main .signin .LeftSide .OuterDiv {
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.main .signin .LeftSide .OuterDiv img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main .signin .form {
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.main .signin .form .title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.main .signin .form .outer-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.main .signin .form .outer-div .signininput {
+    display: inline-block;
+    max-width: 100%;
+}
