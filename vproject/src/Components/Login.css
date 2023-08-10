@@ -1,0 +1,60 @@
+np 
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   /* background-image: url('./it.jpg'); 
+    background-color: hwb(191 55% 25%);*/
+  }
+  
+  .login-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+    3px 3px 7px rgba(147, 149, 151, 0.671);
+    background-image: url('./it.jpg'); 
+    background-color: #ffffff;
+  }
+  
+  .login-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    background: rgba(105, 105, 105, 0);
+    color: aqua;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: rgba(105, 105, 105, 0);
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    color: aqua;
+
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(105, 105, 105, 0);
+    color: aqua;
+  }
+  
+  .btn-primary:hover {
+    background: rgba(105, 105, 105, 0);
+  }
+  
